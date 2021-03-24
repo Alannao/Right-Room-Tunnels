@@ -1,53 +1,74 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Right Room</title>
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <style>
+        
+        body{
+            
+            background-color: #000;
+        }
+                
+     
 
-<html>
-    <h1> Right Room</h1>
+       h1 {
+           font-family: 'Shadows Into Light', cursive;
+        margin-top: 0px;
+        color: azure; 
+          clear:both;
+      }
 
-<p>You enter the room and find four walls each with a different tunnel.  Which tunnel do you choose to go through?</p>
-    <head>  
-<title>Right Room</title>
-<script language="JavaScript">
-function reveal1(){
-var Tunnel1 = document.theForm.elements[0].value
-document.write("In tunnel one there is room of grow lights and plants.")}
-function reveal2(){
-   var Tunnel2 = document.theForm.elements[0].value
-document.write("In tunnel two, you swim into the deep ocean.")} 
-function reveal3(){
-    var Tunnel3 = document.theForm.elements[0].value
-document.write("You enter tunnel 3 and the room is filled with posion and you die")}
-function reveal4(){
-    var Tunnel4 = document.theForm.elements[0].value
-document.write("In tunnel four has shop people can purchase it and hang out place.")} 
+      #assessment button {
+        width:80px;
+        height: 80px;
+        margin-top: 8px;
+        border-radius: 40px;
+        border: 3px solid #333;
+        background-color: #999;
+        color: #333;
+        font-size: 1.15em;     
 
-function fredTv() {
-  window.open("https://kbish001.github.io/YabbaDD2/");
-}    
-    
-function seeSea() {
-  window.open("https://alannao.github.io/see-the-sea/");
-}    
-    
-function poison() {
-  window.open("https://alannao.github.io/Tunnel-3/");
-}    
-    
-function cafe() {
-  window.open("https://alannao.github.io/Tunnel-4/");
-}    
-    
-</script>
-</head>
-<body>
-<form name="theForm">
+      }
+        #tunnel1{
+            float :right;
+            
+        }
+        #tunnel2 {
+            
+        }
+        #tunnel3{
+            float:right;
+        }
+    </style>
+    <center>
+   <h1>You enter the room and find four walls each with a different tunnel.  Which tunnel do you choose to go through?</h1>
+   </center>  
 
-<input id="Tunnel1" type="button" value="Tunnel 1" onClick="fredTv()">
-<input id="Tunnel2" type="button" value="Tunnel 2" onClick="seeSea()">
-<input id="Tunnel3" type="button" value="Tunnel 3" onClick="poison()">
-<input id="Tunnel4" type="button" value="Tunnel 4" onClick="cafe()">
-</form>
-</body>
-
-
+  </head>
+  <div id="tunnel1">
+  <a href="https://alannao.github.io/see-the-sea/" style="display: block; 
+    height:480px; 
+    width:640px;
+    background: url(tunnelpic2.jpg) top left; no-repeat;"></a>
+    </div>
+    <div id="tunnel2">
+    <a href="https://kbish001.github.io/YabbaDD2/" style="display: block; 
+    height:480px; 
+    width:640px;
+    background: url(lighttunnel1-640x480.jpg) top right no-repeat;"></a>
+    </div>
+    <div id="tunnel3">
+     <a href="https://alannao.github.io/Tunnel-4/" style="display: block; 
+    height:480px; 
+    width:640px;
+    background: url(tunnelpic3.jpeg) bottom right no-repeat;"></a>
+    </div>
+  <a href="https://alannao.github.io/Tunnel-3/" style="display: block; 
+    height:480px; 
+    width:640px;
+    background: url(tunnelpic4.jpg) bottom left no-repeat;"></a>
+  
 
 </html>
